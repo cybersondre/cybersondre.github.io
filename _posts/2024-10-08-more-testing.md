@@ -8,7 +8,8 @@ tags: [test]
 description: ""
 ---
 
-[[_TOC_]]
+* TOC
+{:toc}
 
 
 # Hei
