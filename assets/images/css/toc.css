@@ -1,0 +1,109 @@
+/* Table of Contents Container */
+.toc-container {
+    background-color: #f8f9fa;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+    margin: 20px auto;
+  }
+  
+  /* Basic TOC Styling */
+  .toc {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .toc li {
+    margin-bottom: 10px;
+  }
+  
+  /* Links with Hover Effects */
+  .toc li a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: 500;
+    font-size: 16px;
+    transition: color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .toc li a:hover {
+    color: #0056b3;
+    transform: translateX(5px);
+  }
+  
+  /* Nested Lists (Subsections) */
+  .toc ul {
+    margin-left: 20px;
+  }
+  
+  .toc ul li a {
+    font-size: 14px;
+    color: #495057;
+  }
+  
+  .toc ul li a:hover {
+    color: #343a40;
+  }
+  
+  /* Custom Bullets */
+  .toc ul {
+    list-style-type: none;
+  }
+  
+  .toc ul li::before {
+    content: "•"; /* Bullet character */
+    color: #007bff; /* Bullet color */
+    margin-right: 10px;
+    font-weight: bold;
+  }
+  
+  .toc ul ul li::before {
+    content: "◦"; /* Sub-item bullet character */
+    color: #6c757d;
+  }
+  
+  /* Active Section Highlighting */
+  .toc li a.active {
+    font-weight: bold;
+    color: #0056b3;
+    border-left: 3px solid #0056b3;
+    padding-left: 5px;
+  }
+  
+  /* Animations for TOC Items */
+  .toc li {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInUp 0.4s forwards;
+  }
+  
+  .toc li:nth-child(1) { animation-delay: 0.1s; }
+  .toc li:nth-child(2) { animation-delay: 0.2s; }
+  .toc li:nth-child(3) { animation-delay: 0.3s; }
+  .toc li:nth-child(4) { animation-delay: 0.4s; }
+  .toc li:nth-child(5) { animation-delay: 0.5s; }
+  
+  @keyframes fadeInUp {
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* Responsive Design for Mobile */
+  @media (max-width: 768px) {
+    .toc-container {
+      padding: 10px;
+    }
+  
+    .toc li a {
+      font-size: 14px;
+    }
+  
+    .toc ul li a {
+      font-size: 12px;
+    }
+  }
+  
