@@ -8,7 +8,6 @@ tags: [test]
 description: ""
 ---
 
-<link rel="stylesheet" href="{{ '/assets/css/toc.css' | relative_url }}">
 <div class="toc-container">
   <ul class="toc">
     <li><a href="#Hei">Hei</a>
