@@ -33,6 +33,7 @@ github_username:  cybersondre
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-github-chart
 
 
 # Exclude from processing.
