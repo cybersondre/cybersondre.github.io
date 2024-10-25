@@ -8,8 +8,17 @@ tags: [test]
 description: ""
 ---
 
-* TOC
-{:toc}
+<div class="toc-container">
+  <ul class="toc">
+    <li><a href="#section-1">Hei</a>
+      <ul>
+        <li><a href="#subsection-1">På</a></li>
+        <li><a href="#subsection-2">Deg</a></li>
+      </ul>
+    </li>
+    <li><a href="#section-2">Igjen</a></li>
+  </ul>
+</div>
 
 
 # Hei
