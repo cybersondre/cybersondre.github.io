@@ -41,11 +41,10 @@
 
 /* Add hashtags in front of the nested links */
 .toc ul li a::before {
-  content: "# "; /* Add smaller hashtag for subsections */
   color: #999; /* Lighter grey for nested hashtags */
 }
 
 /* Hover effect for links */
 .toc li a:hover {
-  color: #0056b3; /* Change color on hover */
+  color: #eb4b4b; /* Change color on hover */
 }
