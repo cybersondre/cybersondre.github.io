@@ -8,35 +8,7 @@ tags: [test]
 description: ""
 ---
 
-<!-- Add the CSS directly in the markdown file for testing -->
-<style>
-  .toc-container {
-    background-color: #f8f9fa;
-    padding: 15px;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  }
-
-  .toc {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-  }
-
-  .toc li a {
-    text-decoration: none;
-    color: #007bff;
-    font-weight: 500;
-    font-size: 16px;
-    transition: color 0.3s ease, transform 0.3s ease;
-  }
-
-  .toc li a:hover {
-    color: #0056b3;
-    transform: translateX(5px);
-  }
-</style>
-
+<link rel="stylesheet" href="{{ '/assets/css/toc.css' | relative_url }}">
 <div class="toc-container">
   <ul class="toc">
     <li><a href="#Hei">Hei</a>
