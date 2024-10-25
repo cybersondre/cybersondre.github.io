@@ -23,7 +23,6 @@
 
 /* Add hashtags in front of the main links */
 .toc li a::before {
-  content: "# "; /* Add hashtag */
   color: #666; /* Make the hashtag grey */
 }
 
