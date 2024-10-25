@@ -1,7 +1,6 @@
 /* Table of Contents Container */
 .toc-container {
   padding: 10px;
-  border-left: 3px solid #ccc; /* Vertical line styling */
   font-family: Arial, sans-serif; /* Use a clean, sans-serif font */
 }
 
