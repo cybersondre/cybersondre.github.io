@@ -17,4 +17,4 @@ You can find the source code for Jekyll at GitHub:
 
 [jekyll-organization]: https://github.com/jekyll
 
-[![CyberSondres GitHub stats](https://github-readme-stats-teal-ten-26.vercel.app/api?username=cybersondre)](https://github.com/cybersondre/github-readme-stats)
+[![CyberSondres GitHub stats](https://github-readme-stats-teal-ten-26.vercel.app/api?username=cybersondre?theme=cobalt)](https://github.com/cybersondre/github-readme-stats)
