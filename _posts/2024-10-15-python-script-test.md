@@ -7,3 +7,5 @@ categories: test
 
 # Test
 Dette er bare en test for å se om jeg can pulle fra dette repoet med python script
+
+[About me](_posts/about.markdown)
