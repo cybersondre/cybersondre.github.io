@@ -14,4 +14,4 @@ Dette er bare en test for å se om jeg can pulle fra dette repoet med python scr
 
 [More testing]({{ "/2024-10-08-more-testing" | _posts/2024-10-08-more-testing.md }})
 
-[Link to a Post]({% post_url 2024-10-07-welcome-tojekyll %})
+[Link to a Post]({% post_url 2024-10-07-welcome-to-jekyll %})
