@@ -10,5 +10,5 @@ Dette er bare en test for å se om jeg can pulle fra dette repoet med python scr
 
 [About me](about.markdown)
 
-<a href=about.markdown>About me</a>
+[About me]({{ "/about" | about.markdown }})
 
