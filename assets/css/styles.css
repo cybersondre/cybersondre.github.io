@@ -1,10 +1,12 @@
-.posts-grid {
+/* Shared grid styling for both pages */
+.posts-grid, .projects-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 20px;
   }
   
-  .post-block {
+  /* Shared post block styling for both pages */
+  .post-block, .project-block {
     border: 1px solid #ddd;
     padding: 15px;
     border-radius: 8px;
@@ -12,15 +14,15 @@
     transition: transform 0.3s ease;
   }
   
-  .post-block:hover {
+  .post-block:hover, .project-block:hover {
     transform: translateY(-5px);
   }
   
-  .post-block h2 {
+  .post-block h2, .project-block h2 {
     margin: 0 0 10px;
   }
   
-  .post-block p {
+  .post-block p, .project-block p {
     color: #555;
     font-size: 0.9em;
   }
