@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Python script testing"
-date:   2024-10-15 13:33:19 +0200
-categories: blog
+title: "Python script testing"
+date: 2024-10-15 13:33:19 +0200
+category: blog
 ---
 
 # Test
