@@ -1,0 +1,27 @@
+.posts-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+  }
+  
+  .post-block {
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .post-block:hover {
+    transform: translateY(-5px);
+  }
+  
+  .post-block h2 {
+    margin: 0 0 10px;
+  }
+  
+  .post-block p {
+    color: #555;
+    font-size: 0.9em;
+  }
+  
