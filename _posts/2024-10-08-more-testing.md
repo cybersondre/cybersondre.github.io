@@ -4,8 +4,6 @@ title: "More Testing "
 date: 2024-10-08 11:12:54 +0200
 category: project
 author: Sondre
-tags: [test]
-description: ""
 ---
 
 <link rel="stylesheet" href="{{ '/assets/css/toc.css' | relative_url }}">
