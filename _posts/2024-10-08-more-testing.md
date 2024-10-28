@@ -2,7 +2,7 @@
 layout: post
 title: "More Testing "
 date: 2024-10-08 11:12:54 +0200
-category: Test
+category: project
 author: Sondre
 tags: [test]
 description: ""
