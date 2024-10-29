@@ -17,8 +17,6 @@ layout: home
 
   <button class="mode-toggle" id="dark-mode-toggle">Switch to Dark Mode</button>
 
-  {{ content }}
-
   <script>
     const toggleButton = document.getElementById('dark-mode-toggle');
     const body = document.body;
