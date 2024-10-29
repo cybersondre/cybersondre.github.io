@@ -27,3 +27,54 @@
     font-size: 0.9em;
   }
   
+/*Light mode and dark mode*/
+/* Light Mode (default) */
+body {
+  background-color: white;
+  color: black;
+}
+
+.toc-container {
+  background-color: #f8f9fa;
+  color: black;
+}
+
+/* Dark Mode */
+body.dark-mode {
+  background-color: #2e2e2e;
+  color: white;
+}
+
+.toc-container.dark-mode {
+  background-color: #444;
+  color: white;
+}
+
+/* Button Styles */
+.mode-toggle {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  background-color: #007bff;
+  color: white;
+  border-radius: 5px;
+}
+
+.mode-toggle.dark-mode {
+  background-color: #444;
+}
+
+header.dark-mode {
+  background-color: #333;
+}
+
+footer.dark-mode {
+  background-color: #222;
+}
+
+a.dark-mode {
+  color: #76c7c0;
+}
