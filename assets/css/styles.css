@@ -78,3 +78,43 @@ footer.dark-mode {
 a.dark-mode {
   color: #76c7c0;
 }
+
+/* About Page Styling */
+.about-page {
+  text-align: center;
+  margin: 2rem auto;
+  padding: 1rem;
+}
+
+.about-page img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  margin-bottom: 1rem;
+}
+
+.about-page h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.about-page table {
+  margin: 1.5rem auto;
+  border-collapse: collapse;
+}
+
+.about-page table td,
+.about-page table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.about-page table th {
+  font-weight: bold;
+  background-color: #f4f4f4;
+}
+
+.about-page .highlight {
+  font-weight: bold;
+  color: #0073e6;
+}
