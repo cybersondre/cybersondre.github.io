@@ -4,6 +4,8 @@ title: About
 permalink: /about/
 ---
 
+<link rel="stylesheet" href="{{ '/assets/css/styles.css' | relative_url }}">
+
 ![Profile Picture](assets/images/profile.jpg)
 
 ## Who I Am
