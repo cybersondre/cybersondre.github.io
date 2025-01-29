@@ -6,10 +6,10 @@ permalink: /about/
 
 <link rel="stylesheet" href="{{ '/assets/css/styles.css' | relative_url }}">
 
-![Profile Picture](assets/images/profile.jpg)
+![Profile Picture](assets/images/profileprofilbildet.jpg)
 
 ## Who I Am
-Hi, I'm Alex! I'm a developer, designer, and lifelong learner with a passion for building creative and impactful solutions.
+Halla, jeg heter Sondre! Jeg er en cybersikkerhetsstudent, gamer og en aktiv person som trener mye.
 
 ---
 
@@ -33,6 +33,6 @@ Hi, I'm Alex! I'm a developer, designer, and lifelong learner with a passion for
 
 ## Get in Touch
 
-Feel free to [contact me](mailto:yourname@example.com) or connect on [LinkedIn](https://linkedin.com/in/yourprofile).
+Feel free to [contact me](mailto:sondre@cybersondre.no) or connect on [LinkedIn](https://linkedin.com/in/cybersondre).
 
 [![CyberSondres GitHub stats](https://github-readme-stats-teal-ten-26.vercel.app/api?username=cybersondre&theme=cobalt)](https://github.com/cybersondre/github-readme-stats)
