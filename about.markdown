@@ -6,32 +6,45 @@ permalink: /about/
 
 <link rel="stylesheet" href="{{ '/assets/css/styles.css' | relative_url }}">
 
-![Profile Picture](assets/images/profileprofilbildet.jpg)
+![Profile Picture](assets/images/profilbildet.jpg)
 
-## Who I Am
+## Hvem er jeg?
 Halla, jeg heter Sondre! Jeg er en cybersikkerhetsstudent, gamer og en aktiv person som trener mye.
 
 ---
 
-## Quick Facts
+## Noen kjappe fakta om meg
 
 | Hobby             | Skill                   | Favorite Tool       |
 |--------------------|-------------------------|---------------------|
-| Hiking & Camping  | JavaScript & Python     | Visual Studio Code  |
-| Reading Sci-Fi    | UI/UX Design            | Figma               |
-| Playing Guitar    | Problem Solving         | GitHub              |
+| Gaming  | JavaScript & Python     | Visual Studio Code  |
+| Trening    | UI/UX Design            | Figma               |
+| Lesing    | Problem Solving         | GitHub              |
 
 ---
 
-## Work Highlights
+## Ferdigheter
 
-- **2023**: Created an open-source tool that helps users manage projects efficiently.
-- **2022**: Designed and launched a portfolio site, gaining recognition in a design contest.
-- **2021**: Interned at a leading tech company, focusing on backend development.
+- IKT-fagbrev
+
+
+---
+## Erfaring
+
+- **08.2022 - d.d**: IT-Support hos Frisikt IT 
+- **08.2019 - 08.2021**: IKT-lærling hos Jarlsberg IKT
 
 ---
 
-## Get in Touch
+## Utdanning
+
+- **08.2022 - 06.2026**: Bachelor i digital infrastruktur og cybersikkerhet ved NTNU
+- **08.2021 - 06.2022**: Påbygg til generell studiekompetanse
+- **08.2019 - 08.2021**: IKT-lærling hos Jarlsberg IKT
+
+---
+
+## Kontakt meg!
 
 Feel free to [contact me](mailto:sondre@cybersondre.no) or connect on [LinkedIn](https://linkedin.com/in/cybersondre).
 
