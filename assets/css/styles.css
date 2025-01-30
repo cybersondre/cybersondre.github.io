@@ -87,10 +87,10 @@ a.dark-mode {
 }
 
 .about-page img {
-  border-radius: 50%;
-  width: 150px;
-  height: 150px;
-  margin-bottom: 1rem;
+  width: 150px;  /* Adjust width */
+  height: 150px; /* Adjust height */
+  object-fit: cover; /* Ensures uniform scaling */
+  border-radius: 50%; /* Optional: Makes it circular */
 }
 
 .about-page h1 {
