@@ -86,13 +86,6 @@ a.dark-mode {
   padding: 1rem;
 }
 
-.about-page img {
-  width: 150px;  /* Adjust width */
-  height: 150px; /* Adjust height */
-  object-fit: cover; /* Ensures uniform scaling */
-  border-radius: 50%; /* Optional: Makes it circular */
-}
-
 .about-page h1 {
   font-size: 2.5rem;
   margin-bottom: 1rem;
@@ -117,4 +110,11 @@ a.dark-mode {
 .about-page .highlight {
   font-weight: bold;
   color: #0073e6;
+}
+
+.profile-pic {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
 }

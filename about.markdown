@@ -6,7 +6,7 @@ permalink: /about/
 
 <link rel="stylesheet" href="{{ '/assets/css/styles.css' | relative_url }}">
 
-![Profile Picture](assets/images/profilbildet.jpg)
+<img src="assets/images/profilbildet.jpg" alt="Profile Picture" class="profile-pic">
 
 ## Hvem er jeg?
 Halla, jeg heter Sondre! Jeg er en cybersikkerhetsstudent, gamer og en aktiv person som trener mye.
