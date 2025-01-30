@@ -113,8 +113,8 @@ a.dark-mode {
 }
 
 .profile-pic {
-  width: 150px;
-  height: 150px; /* Allow natural aspect ratio */
+  width: 250px;
+  height: 250px; /* Allow natural aspect ratio */
   border-radius: 50%;
   display: block; /* Prevent hidden images */
 }
