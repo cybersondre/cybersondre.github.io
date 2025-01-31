@@ -17,8 +17,8 @@ Halla, jeg heter Sondre! Jeg er en cybersikkerhetsstudent, gamer og en aktiv per
 
 | Hobby             | Skill                   | Favorite Tool       |
 |--------------------|-------------------------|---------------------|
-| Gaming  | JavaScript & Python     | Visual Studio Code  |
-| Trening    | UI/UX Design            | Figma               |
+| Gaming  | C     | Visual Studio Code  |
+| Trening    | C++            | Figma               |
 | Lesing    | Problem Solving         | GitHub              |
 
 ---
