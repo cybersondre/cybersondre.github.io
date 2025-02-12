@@ -27,3 +27,7 @@ footer {
     background: #333;
     color: #fff;
 }
+#posts-list {
+    list-style: none; /* Removes the default bullet icons */
+    padding-left: 0;  /* Optional: remove left padding */
+}
