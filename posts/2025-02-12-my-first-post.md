@@ -1,4 +1,9 @@
-# My First Post
+---
+title: "Mitt første innlegg"
+date: "2025-02-12"
+author: "Sondre Sætervadet"
+---
+# Introduction
 
 This is my **first post** written in Markdown.
 

@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/cybersondre/cybersondre.github.io#readme",
   "dependencies": {
+    "gray-matter": "^4.0.3",
     "marked": "^15.0.7"
   }
 }

@@ -1,6 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 const { marked } = require('marked');
+const matter = require('gray-matter'); // Import gray-matter
 
 // Directories
 const postsDir = path.join(__dirname, 'posts');
@@ -29,18 +30,28 @@ function copyStaticFiles(src, dest) {
     });
 }
 
-// Convert Markdown posts to HTML
+// Convert Markdown posts to HTML and output them to docs/posts/
 function convertMarkdownFiles() {
     const postsOutputDir = path.join(outputDir, 'posts');
     fs.mkdirSync(postsOutputDir, { recursive: true });
+
     fs.readdirSync(postsDir).forEach(file => {
         if (path.extname(file) === '.md') {
             const inputPath = path.join(postsDir, file);
-            const outputFilename = file.replace('.md', '.html');
-            const outputPath = path.join(postsOutputDir, outputFilename);
             const markdownContent = fs.readFileSync(inputPath, 'utf8');
-            const htmlContent = marked(markdownContent);
-            const title = path.basename(file, '.md').replace(/-/g, ' ');
+
+            // Use gray-matter to parse the front matter and content
+            const parsed = matter(markdownContent);
+            const metadata = parsed.data;
+            const contentMarkdown = parsed.content;
+
+            // Convert Markdown content to HTML
+            const htmlContent = marked(contentMarkdown);
+
+            // Use metadata.title if available, otherwise fallback to a title derived from the filename
+            const title = metadata.title || file.replace('.md', '').replace(/-/g, ' ');
+
+            // Build the final HTML with a simple template
             const fullHtml = `<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -54,6 +65,7 @@ function convertMarkdownFiles() {
     <h1>${title}</h1>
     <nav>
       <a href="/index.html">Home</a>
+      <a href="/blog.html">Blog</a>
       <a href="/about.html">About</a>
     </nav>
   </header>
@@ -65,16 +77,62 @@ function convertMarkdownFiles() {
   </footer>
 </body>
 </html>`;
+
+            // Write the HTML file into docs/posts/
+            const outputFilename = file.replace('.md', '.html');
+            const outputPath = path.join(postsOutputDir, outputFilename);
             fs.writeFileSync(outputPath, fullHtml);
             console.log(`Generated ${outputPath}`);
         }
     });
 }
 
+// Generate posts.json using gray-matter metadata from each Markdown file
+function generatePostsJson() {
+    let posts = [];
+
+    // Loop over each Markdown file in postsDir
+    fs.readdirSync(postsDir).forEach(file => {
+        if (path.extname(file) === '.md') {
+            const filePath = path.join(postsDir, file);
+            const fileContents = fs.readFileSync(filePath, 'utf8');
+            const parsed = matter(fileContents);
+            const metadata = parsed.data;
+
+            // Use metadata.title if provided, else derive a title from the filename
+            const title = metadata.title || file.replace('.md', '').replace(/-/g, ' ');
+            // Use metadata.date if provided
+            const date = metadata.date || '';
+
+            // Construct the URL for the post based on the file name
+            const url = `/posts/${file.replace('.md', '.html')}`;
+
+            posts.push({
+                title,
+                date,
+                url
+            });
+        }
+    });
+
+    // Optionally, sort posts by date (newest first) if the date field exists
+    posts.sort((a, b) => {
+        if (a.date && b.date) {
+            return new Date(b.date) - new Date(a.date);
+        }
+        return 0;
+    });
+
+    // Write the JSON file into the output folder
+    fs.writeFileSync(path.join(outputDir, 'posts.json'), JSON.stringify(posts, null, 2));
+    console.log('Generated posts.json with metadata');
+}
+
 // Run build steps
 clearOutputDir(outputDir);
 copyStaticFiles(publicDir, outputDir);
 convertMarkdownFiles();
+generatePostsJson();
 
 // Create .nojekyll to disable Jekyll processing on GitHub Pages
 fs.writeFileSync(path.join(outputDir, '.nojekyll'), '');
