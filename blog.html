@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+<header>
+  <h1>Blog</h1>
+  <nav>
+    <a href="/index.html">Home</a>
+    <a href="/about.html">About</a>
+  </nav>
+</header>
+<main>
+  <ul id="posts-list"></ul>
+</main>
+<footer>
+  <p>&copy; 2025 Cybersondre</p>
+</footer>
+<script>
+  // Fetch posts.json and build the list of blog posts
+  fetch('/posts.json')
+          .then(response => response.json())
+          .then(posts => {
+            const listEl = document.getElementById('posts-list');
+            posts.forEach(post => {
+              const li = document.createElement('li');
+              const a = document.createElement('a');
+              a.href = post.url;
+              // Format the display title (you can include date or other info here)
+              a.textContent = post.title;
+              li.appendChild(a);
+              listEl.appendChild(li);
+            });
+          })
+          .catch(error => console.error('Error loading posts:', error));
+</script>
+</body>
+</html>
