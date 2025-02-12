@@ -28,11 +28,25 @@
             const listEl = document.getElementById('posts-list');
             posts.forEach(post => {
               const li = document.createElement('li');
+
+              // Create the link for the post title
               const a = document.createElement('a');
               a.href = post.url;
-              // Format the display title (you can include date or other info here)
               a.textContent = post.title;
               li.appendChild(a);
+
+              // If a date exists, display it
+              if (post.date) {
+                // Create a span to display the date
+                const dateSpan = document.createElement('span');
+                // You can format the date as needed; here it simply appends the date text.
+                dateSpan.textContent = ` — ${post.date}`;
+                // Optionally, style the date (e.g., smaller, gray text)
+                dateSpan.style.fontSize = '0.9em';
+                dateSpan.style.color = '#666';
+                li.appendChild(dateSpan);
+              }
+
               listEl.appendChild(li);
             });
           })
