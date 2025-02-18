@@ -61,20 +61,11 @@ function convertMarkdownFiles() {
   <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
-  <header>
-    <h1>${title}</h1>
-    <nav>
-      <a href="/index.html">Home</a>
-      <a href="/blog.html">Blog</a>
-      <a href="/about.html">About</a>
-    </nav>
-  </header>
+  <div id="header"></div>
   <main>
     ${htmlContent}
   </main>
-  <footer>
-    <p>&copy; 2025 Your Name</p>
-  </footer>
+  <div id="footer"></div>
 </body>
 </html>`;
 
