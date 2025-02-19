@@ -31,3 +31,54 @@ footer {
     list-style: none; /* Removes the default bullet icons */
     padding-left: 0;  /* Optional: remove left padding */
 }
+
+
+/************************************ABOUT PAGE************************************/
+#about-page body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f5f5f5;
+    color: #333;
+}
+
+#about-page .container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+
+#about-page .profile {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#about-page .profile img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 2px solid #ccc;
+}
+
+#about-page h1, h2 {
+    margin: 10px 0;
+}
+
+#about-page .card {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+#about-page .social-links {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#about-page .social-links a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: inherit;
+}
