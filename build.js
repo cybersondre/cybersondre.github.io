@@ -7,7 +7,7 @@ const matter = require('gray-matter'); // if using gray-matter for metadata
 const postsDir = path.join(__dirname, 'posts');
 const publicDir = path.join(__dirname, 'public');
 const outputDir = path.join(__dirname, 'docs');
-const partialsDir = path.join(__dirname, 'partials');
+const partialsDir = path.join(__dirname, 'public/partials');
 
 // Clear the output directory
 function clearOutputDir(dir) {
