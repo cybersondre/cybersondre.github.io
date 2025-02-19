@@ -98,4 +98,12 @@ copyStaticFiles(publicDir, outputDir);
 convertMarkdownFiles();
 addNoJekyll();
 
+// Define your custom domain
+const customDomain = 'cybersondre.no';
+
+// Create the CNAME file in the output directory (docs)
+fs.writeFileSync(path.join(outputDir, 'CNAME'), customDomain);
+console.log('Added CNAME file with custom domain:', customDomain);
+
+
 console.log('Site build complete! Files are in the docs/ folder.');
