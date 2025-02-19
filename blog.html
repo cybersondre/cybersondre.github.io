@@ -7,11 +7,19 @@
   <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
-<div id="header"></div>
+  <header>
+    <nav>
+      <a href="index.html">Hjem</a>
+      <a href="about.html">Om meg</a>
+      <a href="blog.html">Blogg</a>
+    </nav>
+  </header>  
 <main>
   <ul id="posts-list"></ul>
 </main>
-<div id="footer"></div>
+<footer>
+  <p>© 2025 Cybersondre. All Rights Reserved.</p>
+</footer>
 <script src="/js/loadHeaderFooter.js"></script>
 <script>
   // Fetch posts.json and build the list of blog posts
@@ -45,5 +53,6 @@
           })
           .catch(error => console.error('Error loading posts:', error));
 </script>
+
 </body>
 </html>
