@@ -34,14 +34,6 @@ footer {
 
 
 /************************************ABOUT PAGE************************************/
-#about-page body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background: #f5f5f5;
-    color: #333;
-}
-
 #about-page .container {
     max-width: 800px;
     margin: auto;
