@@ -32,8 +32,23 @@ footer {
     padding-left: 0;  /* Optional: remove left padding */
 }
 
+a:visited {
+    color: inherit;
+  }
+  
+/************************************HOME*************************************/
+#home-page main {
+    background: black;
+    color: #fff;
+}
 
-/************************************ABOUT PAGE************************************/
+#home-page h1, h2 {
+    margin: 10px 0;
+    color: #fff;
+}
+/************************************HOME*************************************/
+
+/************************************ABOUT************************************/
 #about-page .container {
     max-width: 800px;
     margin: auto;
@@ -74,4 +89,6 @@ footer {
 #about-page .social-links a {
     margin: 0 10px;
     text-decoration: none;
+    color: inherit;
 }
+/************************************ABOUT************************************/
