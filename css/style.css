@@ -38,6 +38,7 @@ footer {
     max-width: 800px;
     margin: auto;
     padding: 20px;
+    color: #fff;
 }
 
 #about-page .profile {
@@ -54,6 +55,7 @@ footer {
 
 #about-page h1, h2 {
     margin: 10px 0;
+    color: #fff;
 }
 
 #about-page .card {
@@ -72,5 +74,4 @@ footer {
 #about-page .social-links a {
     margin: 0 10px;
     text-decoration: none;
-    color: inherit;
 }
