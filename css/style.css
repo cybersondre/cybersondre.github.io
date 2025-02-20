@@ -2,10 +2,10 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #0d2818;
+    background-color: #040f0f;
 }
 header {
-    background: #04471C;
+    background: #5a9367;
     color: #fff;
     padding: 20px;
     text-align: center;
@@ -24,7 +24,7 @@ main {
 footer {
     text-align: center;
     padding: 10px;
-    background: #0d2818;
+    background: #5a9367;
     color: #fff;
 }
 #posts-list {
@@ -57,7 +57,7 @@ footer {
 }
 
 #about-page .card {
-    background: #fff;
+    background: #5a9367;
     padding: 20px;
     border-radius: 8px;
     margin-bottom: 20px;
