@@ -27,6 +27,7 @@ footer {
     background: black;
     color: #fff;
 }
+
 #posts-list {
     list-style: none; /* Removes the default bullet icons */
     padding-left: 0;  /* Optional: remove left padding */
@@ -34,8 +35,21 @@ footer {
 
 a:visited {
     color: inherit;
-  }
-  
+}
+
+/* Apply your preferred link color and remove underline */
+a:link,
+a:visited {
+  color: #000;          /* Change #000 to your desired color */
+  text-decoration: none; 
+}
+
+/* Optionally, add a hover effect */
+a:hover {
+  color: #555;          /* Slightly different color on hover */
+  text-decoration: underline;
+}
+
 /************************************HOME*************************************/
 #home-page main {
     background: black;
