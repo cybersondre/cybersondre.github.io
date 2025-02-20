@@ -40,7 +40,7 @@ a:visited {
 /* Apply your preferred link color and remove underline */
 a:link,
 a:visited {
-  color: #000;          /* Change #000 to your desired color */
+  color: #fff;          /* Change #000 to your desired color */
   text-decoration: none; 
 }
 
