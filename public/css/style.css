@@ -4,23 +4,27 @@ body {
     padding: 0;
     background-color: black;
 }
+
 header {
     background: black;
     color: #fff;
     padding: 20px;
     text-align: center;
 }
+
 nav a {
     color: #fff;
     margin: 0 10px;
     text-decoration: none;
 }
+
 main {
     max-width: 800px;
     margin: 20px auto;
     background: #fff;
     padding: 20px;
 }
+
 footer {
     text-align: center;
     padding: 10px;
@@ -46,7 +50,7 @@ a:visited {
 
 /* Optionally, add a hover effect */
 a:hover {
-  color: #555;          /* Slightly different color on hover */
+  color: #fff;          /* Slightly different color on hover */
   text-decoration: underline;
 }
 
