@@ -2,10 +2,10 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #353630;
+    background-color: black;
 }
 header {
-    background: #949;
+    background: black;
     color: #fff;
     padding: 20px;
     text-align: center;
@@ -24,7 +24,7 @@ main {
 footer {
     text-align: center;
     padding: 10px;
-    background: #353630;
+    background: black;
     color: #fff;
 }
 #posts-list {
