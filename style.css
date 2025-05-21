@@ -67,3 +67,20 @@ footer {
   color: #666;
   text-align: center;
 }
+
+.social-links {
+  display: flex;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.social-links img {
+  width: 32px;
+  height: 32px;
+  transition: transform 0.2s ease;
+  filter: invert(100%); /* hvit på svart bakgrunn */
+}
+
+.social-links img:hover {
+  transform: scale(1.2);
+}
