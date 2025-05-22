@@ -15,6 +15,16 @@ header h1 {
   color: #fff;
 }
 
+.site-title {
+  color: white;
+  text-decoration: none;
+}
+
+.site-title:hover {
+  text-decoration: underline;
+}
+
+
 .intro {
   margin-top: 2rem;
   margin-bottom: 2rem;
@@ -68,19 +78,50 @@ footer {
   text-align: center;
 }
 
-.social-links {
-  display: flex;
-  gap: 1rem;
+.social-list {
+  list-style: none;
+  padding: 0;
   margin-top: 2rem;
 }
 
-.social-links img {
-  width: 32px;
-  height: 32px;
-  transition: transform 0.2s ease;
-  filter: invert(100%); /* hvit på svart bakgrunn */
+.social-list li {
+  margin-bottom: 1rem;
 }
 
-.social-links img:hover {
+.social-list a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.social-list img {
+  width: 24px;
+  height: 24px;
+  filter: invert(100%); /* gjør ikonene hvite på mørk bakgrunn */
+  transition: transform 0.2s ease;
+}
+
+.social-list a:hover img {
   transform: scale(1.2);
+}
+
+.pill-button {
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 0.4rem 1rem;
+  border-radius: 999px;
+  transition: background-color 0.2s ease;
+  background-color: transparent;
+  font-size: 1rem;
+  margin: 1rem 0;
+}
+
+.pill-button:hover {
+  background-color: white;
+  color: black;
 }
