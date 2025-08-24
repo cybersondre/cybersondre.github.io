@@ -120,8 +120,8 @@ buildExpired = false
 [menu]
   [[menu.main]]
     identifier = "projects"
-    name = "projects"
-    url = "/categories/"
+    name = "Projects"
+    url = "/projects/"
     weight = 10
   [[menu.main]]
     identifier = "blog"
@@ -132,12 +132,12 @@ buildExpired = false
     identifier = "about"
     name = "about"
     url = "/about/"
-    weight = 20
+    weight = 40
   [[menu.main]]
     identifier = "tags"
     name = "tags"
     url = "/tags/"
-    weight = 40
+    weight = 30
 
 pygmentsUseClasses = true
 
