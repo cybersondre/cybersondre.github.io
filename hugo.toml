@@ -1,4 +1,4 @@
-baseURL = "https://examplesite.com/"
+baseURL = "cybersondre.no"
 title = "Cybersondre"
 [pagination]
   pagerSize = 5
@@ -119,20 +119,25 @@ buildExpired = false
 
 [menu]
   [[menu.main]]
-    identifier = "categories"
-    name = "categories"
+    identifier = "projects"
+    name = "projects"
     url = "/categories/"
     weight = 10
+  [[menu.main]]
+    identifier = "blog"
+    name = "blog"
+    url = "/blog/"
+    weight = 20
+  [[menu.main]]
+    identifier = "about"
+    name = "about"
+    url = "/about/"
+    weight = 20
   [[menu.main]]
     identifier = "tags"
     name = "tags"
     url = "/tags/"
-    weight = 20
-  [[menu.main]]
-    identifier = "example"
-    name = "example.org"
-    url = "https://example.org"
-    weight = 30
+    weight = 40
 
 pygmentsUseClasses = true
 
