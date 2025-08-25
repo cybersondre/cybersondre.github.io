@@ -2,20 +2,43 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>//localhost:1313/blog/</loc>
-    <lastmod>2025-08-24T16:17:53+02:00</lastmod>
+    <loc>//localhost:1313/categories/</loc>
+    <lastmod>2025-08-25T21:33:57+02:00</lastmod>
   </url><url>
     <loc>//localhost:1313/</loc>
-    <lastmod>2025-08-24T16:17:53+02:00</lastmod>
+    <lastmod>2025-08-25T21:33:57+02:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/blog/my-first-post/</loc>
-    <lastmod>2025-08-24T16:17:53+02:00</lastmod>
+    <loc>//localhost:1313/tags/docker/</loc>
+    <lastmod>2025-08-25T21:33:57+02:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/projects/my-test-project/</loc>
+    <lastmod>2025-08-25T21:33:57+02:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/categories/projects/</loc>
+    <lastmod>2025-08-25T21:33:57+02:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/projects/</loc>
+    <lastmod>2025-08-25T21:33:57+02:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/</loc>
+    <lastmod>2025-08-25T21:33:57+02:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/categories/blog/</loc>
+    <lastmod>2025-08-25T21:33:15+02:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/books/</loc>
+    <lastmod>2025-08-25T21:33:15+02:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/posts/my-test-post/</loc>
+    <lastmod>2025-08-25T21:33:15+02:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/posts/</loc>
+    <lastmod>2025-08-25T21:33:15+02:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/reading/</loc>
+    <lastmod>2025-08-25T21:33:15+02:00</lastmod>
   </url><url>
     <loc>//localhost:1313/about/</loc>
     <lastmod>2025-08-24T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/categories/</loc>
-  </url><url>
-    <loc>//localhost:1313/tags/</loc>
   </url>
 </urlset>

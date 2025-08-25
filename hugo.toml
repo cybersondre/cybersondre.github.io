@@ -22,7 +22,7 @@ buildExpired = false
 [params]
   env = "production" # to enable google analytics, opengraph, twitter-cards and schema.
   title = "Cybersondre"
-  description = "ExampleSite description"
+  description = "Cybersecurity, blog and personal projects."
   keywords = ["Blog", "Portfolio", "PaperMod"]
   author = "Cybersondre"
   # author = ["Me", "You"] # multiple authors
@@ -30,6 +30,7 @@ buildExpired = false
   DateFormat = "January 2, 2006"
   defaultTheme = "auto" # dark, light
   disableThemeToggle = false
+    mainSections = ["posts", "projects"]
 
   ShowReadingTime = true
   ShowShareButtons = true
@@ -44,7 +45,7 @@ buildExpired = false
   comments = false
   hidemeta = false
   hideSummary = false
-  showtoc = false
+  showtoc = true
   tocopen = false
 
   [params.assets]
@@ -117,27 +118,21 @@ buildExpired = false
     limit = 10 # refer: https://www.fusejs.io/api/methods.html#search
     keys = ["title", "permalink", "summary", "content"]
 
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+
 [menu]
   [[menu.main]]
-    identifier = "projects"
-    name = "projects"
-    url = "/projects/"
-    weight = 20
-  [[menu.main]]
-    identifier = "blog"
-    name = "blog"
-    url = "/blog/"
+    identifier = "about"
+    name = "About"
+    url = "/about/"
     weight = 10
   [[menu.main]]
-    identifier = "about"
-    name = "about"
-    url = "/about/"
-    weight = 40
-  [[menu.main]]
     identifier = "tags"
-    name = "tags"
+    name = "Tags"
     url = "/tags/"
-    weight = 30
+    weight = 20
 
 pygmentsUseClasses = true
 
