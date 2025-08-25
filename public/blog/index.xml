@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Cybersondre</title>
-    <link>//localhost:1313/</link>
-    <description>Recent content on Cybersondre</description>
+    <title>Blogs on Cybersondre</title>
+    <link>//localhost:1313/blog/</link>
+    <description>Recent content in Blogs on Cybersondre</description>
     <image>
       <title>Cybersondre</title>
       <url>//localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
@@ -12,7 +12,7 @@
     <generator>Hugo -- 0.148.2</generator>
     <language>en</language>
     <lastBuildDate>Sun, 24 Aug 2025 16:17:53 +0200</lastBuildDate>
-    <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>My First Post</title>
       <link>//localhost:1313/blog/my-first-post/</link>
@@ -20,22 +20,6 @@
       <guid>//localhost:1313/blog/my-first-post/</guid>
       <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
 &lt;p&gt;This is my first blog post. Currently I&amp;rsquo;m just testing to see how it works.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>About</title>
-      <link>//localhost:1313/about/</link>
-      <pubDate>Sun, 24 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/about/</guid>
-      <description>&lt;h1 id=&#34;about-me&#34;&gt;About Me&lt;/h1&gt;
-&lt;p&gt;Hi, I’m &lt;strong&gt;Cybersondre&lt;/strong&gt; 👋&lt;br&gt;
-I’m a student passionate about cybersecurity, technology, and building cool projects.&lt;/p&gt;
-&lt;p&gt;On this site you’ll find:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;🔐 Notes &amp;amp; posts about cybersecurity&lt;/li&gt;
-&lt;li&gt;💻 Personal projects&lt;/li&gt;
-&lt;li&gt;✍️ Occasional blog posts about tech and learning&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Thanks for stopping by!&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
