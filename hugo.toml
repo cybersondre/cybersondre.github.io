@@ -1,4 +1,4 @@
-baseURL = "cybersondre.no"
+baseURL = "https://cybersondre.no/"
 title = "Cybersondre"
 [pagination]
   pagerSize = 5
@@ -32,7 +32,7 @@ buildExpired = false
   disableThemeToggle = false
     mainSections = ["posts", "projects"]
 
-  ShowReadingTime = true
+  ShowReadingTime = false
   ShowShareButtons = true
   ShowPostNavLinks = true
   ShowBreadCrumbs = true
@@ -104,9 +104,9 @@ buildExpired = false
     hiddenInSingle = true # hide on single page
 
   [params.editPost]
-    URL = "https://github.com/<path_to_repo>/content"
-    Text = "Suggest Changes" # edit text
-    appendFilePath = true # to append file path to Edit link
+    #URL = "https://github.com/<path_to_repo>/content"
+    #Text = "Suggest Changes" # edit text
+    #appendFilePath = true # to append file path to Edit link
 
   [params.fuseOpts]
     isCaseSensitive = false
