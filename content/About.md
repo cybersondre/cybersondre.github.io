@@ -20,6 +20,9 @@ On this site you’ll find:
 
 Thanks for stopping by!
 
+{{< ghstats >}}
+{{< ghstats-langs >}}
+
 ## Experience
 
 ### IT Support — Frisikt IT (Oct 2022 – Present, Part-time)
