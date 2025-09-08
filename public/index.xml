@@ -9,7 +9,7 @@
       <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
-    <generator>Hugo -- 0.149.0</generator>
+    <generator>Hugo -- 0.149.1</generator>
     <language>en</language>
     <lastBuildDate>Mon, 25 Aug 2025 21:33:57 +0200</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
@@ -46,12 +46,9 @@ I’m a student passionate about cybersecurity, projects, and blogging. Currentl
 &lt;li&gt;✍️ Occasional blog posts about tech and learning&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Thanks for stopping by!&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&#34;GitHub stats&#34; loading=&#34;lazy&#34;
+&lt;img alt=&#34;GitHub stats&#34; loading=&#34;lazy&#34;
      src=&#34;https://github-readme-stats-teal-ten-26.vercel.app/api?username=cybersondre&amp;show_icons=true&amp;theme=transparent&amp;hide_border=true&amp;cache_seconds=21600&#34; /&gt;
 
-&lt;img alt=&#34;Top languages&#34; loading=&#34;lazy&#34;
-     src=&#34;https://github-readme-stats-teal-ten-26.vercel.app/api/top-langs/?username=cybersondre&amp;layout=compact&amp;theme=transparent&amp;hide_border=true&amp;cache_seconds=21600&#34; /&gt;
-&lt;/p&gt;
 &lt;h2 id=&#34;experience&#34;&gt;Experience&lt;/h2&gt;
 &lt;h3 id=&#34;it-support--frisikt-it-oct-2022--present-part-time&#34;&gt;IT Support — Frisikt IT (Oct 2022 – Present, Part-time)&lt;/h3&gt;
 &lt;ul&gt;

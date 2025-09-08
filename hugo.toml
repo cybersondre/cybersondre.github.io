@@ -86,12 +86,12 @@ buildExpired = false
     Title = "Welcome to Cybersondre"
     Content = "Cybersecurity • Projects • Blog"
 
-  [[params.socialIcons]]
+  #[[params.socialIcons]]
     name = "x"
     url = "https://x.com/cybersondre"
   [[params.socialIcons]]
-    name = "stackoverflow"
-    url = "https://stackoverflow.com"
+    name = "linkedin"
+    url = "https://linkedin.com/cybersondre"
   [[params.socialIcons]]
     name = "github"
     url = "https://github.com/cybersondre"

@@ -21,7 +21,6 @@ On this site you’ll find:
 Thanks for stopping by!
 
 {{< ghstats >}}
-{{< ghstats-langs >}}
 
 ## Experience
 

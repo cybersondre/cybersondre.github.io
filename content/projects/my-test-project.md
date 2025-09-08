@@ -6,7 +6,6 @@ categories: ["Projects"]
 tags: ["docker"]
 summary: ""
 author: "Cybersondre"
-showToc: false
 hidemeta: false
 cover:
   image: ""          # e.g. /images/projects/your-image.png

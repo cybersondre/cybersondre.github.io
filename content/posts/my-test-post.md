@@ -6,8 +6,6 @@ categories: ["Blog"]
 tags: ["reading", "books"]
 summary: ""
 author: "Cybersondre"
-showToc: true
-tocOpen: false
 cover:
   image: ""          # e.g. /images/posts/your-image.jpg
   alt: ""
