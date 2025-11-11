@@ -34,7 +34,7 @@ buildExpired = false
 
   ShowReadingTime = false
   ShowShareButtons = true
-  ShowPostNavLinks = true
+  ShowPostNavLinks = false
   ShowBreadCrumbs = true
   ShowCodeCopyButtons = true
   ShowWordCount = false
